@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(77, 178, 198),rgb(114, 114, 115));
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+   
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+}
+.timer{
+    position: absolute;
+    top: 150px;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.div1{
+    margin-left: 20px;
+    text-shadow: 2px 2px 5px white;
+}
+.div2{
+    margin-left: 20px;
+    text-shadow: 2px 2px 5px white;
+}
+.div3{
+    margin-left: 20px;
+    text-shadow: 2px 2px 5px white;
+}
