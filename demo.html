@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even_04</title>
+</head>
+<body>
+    <script>
+   
+        let form1=document.createElement("form")
+        document.body.appendChild(form1)
+   
+        let label1=document.createElement("label")
+        label1.textContent="Input 1"
+        form1.appendChild(label1)
+    
+        let input1=document.createElement("input")
+        form1.appendChild(input1)
+   
+        let label2=document.createElement("label")
+        label2.textContent="Input 2"
+        form1.appendChild(label2)
+   
+        let input2=document.createElement("input")
+        form1.appendChild(input2)
+  
+        let button1=document.createElement("button")
+        button1.textContent="Match"
+        button1.setAttribute("onclick","user()")
+        form1.appendChild(button1)
+    
+        function user(){
+            if(input1.value==input2.value){
+                alert("Data\'s match")
+            }
+            else{
+                alert("values not match")
+            }
+        }
+    </script>
+</body>
+</html>
